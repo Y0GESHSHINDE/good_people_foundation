@@ -4,7 +4,6 @@ export default {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-     "./app/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
@@ -12,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         dmSans: "var(--font-dm-sans)",
+      },
+      fontFamily: {
+        'gilroy-heavy': ['Gilroy-Heavy', 'sans-serif'], 
       },
     },
   },

@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${dmSans.variable} ${dmSans.variable} antialiased bg-[hsla(0,7%,97%,1)] h-full`}
+        className={" "}
       >
         {children}
       </body>
